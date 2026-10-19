@@ -1,0 +1,5 @@
+# Adds this plugin after the official Agent Teams profile layer.
+# Its Host half binds to the Team service if and when it becomes available.
+- insert:
+    - id: agent-teams-optimizer
+      name: dsh-agent-teams-optimizer
